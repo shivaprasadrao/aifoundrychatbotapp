@@ -6,7 +6,7 @@ from azure.identity import DefaultAzureCredential
 from azure.ai.agents.models import ListSortOrder
 
 # Load environment variables if needed
-load_dotenv("Test.env")
+load_dotenv()
 
 PROJECT_ENDPOINT = os.getenv("PROJECT_ENDPOINT")  
 AGENT_ID = os.getenv("AGENT_ID")  
